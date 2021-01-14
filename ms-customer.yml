@@ -1,0 +1,15 @@
+server:
+  port: 8805
+  servlet:
+    contex-path: /ms-customer
+
+---
+spring:
+  profiles:
+    active: test
+
+
+---
+spring:
+  profiles:
+    active: prod
