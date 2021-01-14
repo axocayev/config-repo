@@ -1,0 +1,15 @@
+server:
+  port: 8806
+  servlet:
+    contex-path: /ms-item
+
+---
+spring:
+  profiles:
+    active: test
+
+
+---
+spring:
+  profiles:
+    active: prod
